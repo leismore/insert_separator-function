@@ -48,6 +48,7 @@ function insert_separator(text:string, size:number, separator:string):string
 import { LMError } from '@leismore/lmerror';
 class    ISError extends LMError {}
 ```
+Refer to [@leismore/lmerror](https://www.npmjs.com/package/@leismore/lmerror)
 
 ## Authors
 
