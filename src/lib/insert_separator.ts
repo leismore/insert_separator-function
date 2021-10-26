@@ -15,12 +15,12 @@ function insert_separator(text:string, size:number, separator:string):string
     let parts:string[]  = [];
     let maxStart:number;
 
-    if (typeof text !== 'string' || text.length < 2)
+    if (typeof text !== 'string' || text === '')
     {
         throw new ISError({message: 'invalid_text', code: '1'});
     }
 
-    if (typeof size !== 'number' || Math.round(size) > text.length)
+    if (typeof size !== 'number' || size < 1)
     {
         throw new ISError({message:'invalid_size', code:'2'});
     }
@@ -29,7 +29,7 @@ function insert_separator(text:string, size:number, separator:string):string
         size = Math.round(size);
     }
 
-    if (typeof separator !== 'string')
+    if (typeof separator !== 'string' || separator === '')
     {
         throw new ISError({message:'invalid_separator', code:'3'});
     }
