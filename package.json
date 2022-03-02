@@ -1,6 +1,6 @@
 {
   "name": "@leismore/insert_separator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A JavaScript function that converts a string into a series of fixed-length string chunks divided by a given separator.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
