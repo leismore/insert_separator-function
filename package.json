@@ -24,15 +24,15 @@
   },
   "homepage": "https://github.com/leismore/insert_separator-function#readme",
   "devDependencies": {
-    "@types/chai": "^4.2.22",
-    "@types/mocha": "^9.0.0",
-    "@types/node": "^16.11.6",
-    "chai": "^4.3.4",
-    "mocha": "^9.1.3",
-    "ts-node": "^10.4.0",
-    "typescript": "^4.4.4"
+    "@types/chai": "^4.3.0",
+    "@types/mocha": "^9.1.0",
+    "@types/node": "~16.11.26",
+    "chai": "^4.3.6",
+    "mocha": "^9.2.1",
+    "ts-node": "^10.6.0",
+    "typescript": "~4.5.5"
   },
   "dependencies": {
-    "@leismore/lmerror": "^6.0.0"
+    "@leismore/lmerror": "^6.0.3"
   }
 }
